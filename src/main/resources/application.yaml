@@ -1,0 +1,7 @@
+coingecko-service:
+  name: ${COINGECKO_SERVICE_NAME:coingecko-service}
+  url: ${COINGECKO_SERVICE_URL:https://api.coingecko.com/api/v3/}
+
+telegram-bot:
+  name: ${TELEGRAM_BOT_NAME}
+  token: ${TELEGRAM_BOT_TOKEN}
